@@ -1,7 +1,7 @@
 Out of Vocabulary
 =================
 
-** Original data with which we train the N-gram LM **:
+**Original data with which we train the N-gram LM**:
  | This is the house that Jack built.
  | This is the malt
  | That lay in the house that Jack built.
@@ -22,6 +22,17 @@ If we calculate the Probability of the below sentence, it would be zero
  | That killed the rat,
  | That ate the malt,
  | That lay in the house that Jack built.
+
+By our **chain rule of probabilities** where we keep multiplying probabilities,
+we would encounter $\frac{1}{2x}$
+
+One way to avoid, Smoothing !
+______________________________
+
+    $$MLE: (P({ B \over A }) = { Count( A,B ) \over Count (B) })$$
+
+**Why is it called MLE?**
+-
 
 
 
