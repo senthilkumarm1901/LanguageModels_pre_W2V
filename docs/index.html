@@ -12079,7 +12079,7 @@ $$ LogProbability\ for\ a\ bigram\ model = {1 \over N} \left [\ \sum\limits_{\ i
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="classification"> </a></p>
-<h3 id="Application-in-Text-Classification">Application in Text Classification<a class="anchor-link" href="#Application-in-Text-Classification">&#182;</a></h3><p>In this <a href="Codes/Bigram_Models--Text_Classification.ipynb">notebook</a>, Markov Bigram model is implemented on a text classification problem. We can build a deterministic classifier where class is attributed to the class with highest log probability score.</p>
+<h3 id="Application-in-Text-Classification">Application in Text Classification<a class="anchor-link" href="#Application-in-Text-Classification">&#182;</a></h3><p>In this <a href="https://github.com/senthilkumarm1901/LanguageModels_pre_W2V/blob/master/Codes/Bigram_Models--Text_Classification.ipynb">notebook</a>, Markov Bigram model is implemented on a text classification problem. We can build a deterministic classifier where class is attributed to the class with highest log probability score.</p>
 <div class="highlight"><pre><span></span><span class="k">print</span><span class="p">(</span><span class="n">bigram_markov</span><span class="p">(</span><span class="s2">&quot;economic growth slows down&quot;</span><span class="p">))</span>
 </pre></div>
 
@@ -12111,7 +12111,7 @@ Class attributed: 'business'</code></pre>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="text_generation"> </a></p>
-<h3 id="Application-in-Text-Generation">Application in Text Generation<a class="anchor-link" href="#Application-in-Text-Generation">&#182;</a></h3><p>In this <a href="Codes/Char-level N-gram Language Generation Model.ipynb">notebook</a>, a char-level LM, using trigrams and bigrams of characters, was used to generate dianosour names.</p>
+<h3 id="Application-in-Text-Generation">Application in Text Generation<a class="anchor-link" href="#Application-in-Text-Generation">&#182;</a></h3><p>In this <a href="https://github.com/senthilkumarm1901/LanguageModels_pre_W2V/blob/master/Codes/Char-level%20N-gram%20Language%20Generation%20Model.ipynb">notebook</a>, a char-level LM, using trigrams and bigrams of characters, was used to generate dianosour names.</p>
 <div class="highlight"><pre><span></span><span class="o">&gt;&gt;</span> <span class="k">print</span><span class="p">(</span><span class="n">names</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
 
 <span class="c1"># Names of Dianosours used as input</span>
